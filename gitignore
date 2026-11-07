@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+# raw FORCE 2020 LAS files are large: keep them out of git
+data/raw/
+*.las
+!data/sample/*.las
